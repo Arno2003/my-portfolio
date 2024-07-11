@@ -31,7 +31,7 @@
 
   /* =================== font weight =================== */
   --font-normal: 400;
-  --fontt-medium: 500;
+  --font-medium: 500;
   --font-semi-bold: 600;
 
   /* ================= Margenes Bottom ================== */
@@ -151,7 +151,7 @@ img {
   color: var(--container-color);
   padding: 1.25rem 2rem;
   border-radius: 1rem;
-  font-weight: var(--fontt-medium);
+  font-weight: var(--font-medium);
 }
 
 .button:hover{
@@ -166,4 +166,16 @@ img {
   display: inline-flex;
   align-items: center;
 }
-/* ===================== BUTTONS ==================== */
+
+/* ===================== Breakpoints ==================== */
+/* For large devices */
+@media screen and (max-width: 992px) {  
+}
+
+/* For medium devices */
+@media screen and (max-width: 768px) {
+}
+
+/* For small devices */
+@media screen and (max-width: 350px){
+}
